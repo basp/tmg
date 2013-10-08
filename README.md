@@ -1,4 +1,4 @@
-tmg
+TMG
 ===
 
-Blog posts for The Meticulous Geek
+Blog material for http://themeticulousgeek.com/.
