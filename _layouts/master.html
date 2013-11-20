@@ -1,9 +1,24 @@
 <!doctype html>
 <html>
 <head>
-<title>{{.post.title}}</title>
+    <link rel="stylesheet" type="text/css" href="/default.css" />
+    <title>{{.page.title}}</title>
 </head> 
 <body>
-    {{.content}}
+    <div id="header">
+        <pre><span class="w">          *
+  *   ) (  `   (
+` )  /( )\))(  )\ )
+ ( )(_)|(_)()\(()/(    
+(_(_())(_()((_)/(_))
+|_   _||  \/  (_)) __| 
+  | |  | |\/| | | (_ | 
+  |_|  |_|  |_|  \___| 
+</span>
+</pre>
+    </div>
+    <div id="content">
+        {{.content}}
+    </div>
 </body>
 </html>

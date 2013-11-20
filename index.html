@@ -1,0 +1,14 @@
+---
+title: Home
+layout: master
+---
+<table>
+    {{range .site.posts}}
+    <tr>
+        <td><a href="{{.url}}">{{.title}}</a></td>
+        <td>{{.date}}</td>
+        <td>{{.tags}}</td>
+    </tr>
+    {{end}}
+</table>
+<pre>Generated at {{.site.time}}</pre>
