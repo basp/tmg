@@ -37,6 +37,10 @@ code {
     font-size: 0.9em;
 }
 
+td {
+    border-spacing: 8px
+}
+
 a {
     color: #F53A59;
     text-decoration: none;

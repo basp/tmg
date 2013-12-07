@@ -2,18 +2,7 @@
 title: Home
 layout: master
 ---
-<div id="header">
-<pre><span class="w">          *
-  *   ) (  `   (
-` )  /( )\))(  )\ )
- ( )(_)|(_)()\(()/(    
-(_(_())(_()((_)/(_))
-|_   _||  \/  (_)) __| 
-  | |  | |\/| | | (_ | 
-  |_|  |_|  |_|  \___| 
-</span>
-</pre>
-</div>
+<h1>Index</h1>
 <table id="posts">
     {{range .site.posts}}
     <tr>
@@ -23,4 +12,6 @@ layout: master
     </tr>
     {{end}}
 </table>
-<pre>Generated at {{.site.time}}</pre>
+<p>
+  <code>Generated at {{.site.time}}</code>
+</p>
