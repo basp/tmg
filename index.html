@@ -2,12 +2,24 @@
 title: Home
 layout: master
 ---
-<table>
+<div id="header">
+<pre><span class="w">          *
+  *   ) (  `   (
+` )  /( )\))(  )\ )
+ ( )(_)|(_)()\(()/(    
+(_(_())(_()((_)/(_))
+|_   _||  \/  (_)) __| 
+  | |  | |\/| | | (_ | 
+  |_|  |_|  |_|  \___| 
+</span>
+</pre>
+</div>
+<table id="posts">
     {{range .site.posts}}
     <tr>
-        <td><a href="{{.url}}">{{.title}}</a></td>
-        <td>{{.date}}</td>
-        <td>{{.tags}}</td>
+        <td class="t"><a href="{{.url}}">{{.title}}</a></td>
+        <td class="m">{{.date.Format "02-01-2006"}}</td>
+        <td class="m">{{.tags}}</td>
     </tr>
     {{end}}
 </table>

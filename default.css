@@ -1,6 +1,7 @@
 body {
     background-color: #FFFBF5;
     font-family: "Segoe UI", Tahoma, Helvetica, sans-serif;
+    padding: 32px;
 }
 
 h1, h2, h3, h4, h5, h6 {
