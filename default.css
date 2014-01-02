@@ -44,6 +44,7 @@ td {
 a {
     color: #F53A59;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
